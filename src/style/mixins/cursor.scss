@@ -1,0 +1,10 @@
+.cursor{
+    @include box(50px,50px);
+    border-radius: 50%;
+    background-color: rgba(255,255,255, .3);
+    transform: translate(-50%,-50%);
+    transition: transform .2s;
+    pointer-events: none;
+    position: absolute;
+    z-index: 10;
+}
